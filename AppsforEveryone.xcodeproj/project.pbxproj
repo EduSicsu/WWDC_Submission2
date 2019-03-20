@@ -760,7 +760,7 @@
 		80C4C5EE2242CDD300FE25D2 /* sadSonnyAsset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sadSonnyAsset@2x.png"; sourceTree = "<group>"; };
 		80C4C5F02242CDD300FE25D2 /* sadSonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadSonnyAsset.png; sourceTree = "<group>"; };
 		80C4C5F12242CDD300FE25D2 /* happySonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happySonnyAsset.png; sourceTree = "<group>"; };
-		80CAED552242D9AF00FBA2A2 /* Scene_Color.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Color.sks; sourceTree = "<group>"; };
+		80CAED582242FAE200FBA2A2 /* Scene_Texture.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Scene_Texture.sks; path = PlaygroundBook/PrivateResources/GameScenes/Scene_Blind/Scene_Texture.sks; sourceTree = SOURCE_ROOT; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -2208,7 +2208,7 @@
 		C49C30F52242A7A400B93AB1 /* Scene_Texture */ = {
 			isa = PBXGroup;
 			children = (
-				80CAED552242D9AF00FBA2A2 /* Scene_Color.sks */,
+				80CAED582242FAE200FBA2A2 /* Scene_Texture.sks */,
 			);
 			path = Scene_Texture;
 			sourceTree = "<group>";
