@@ -16,5 +16,16 @@
  */
 // Adjust the variable below for the asset that fits your vision:
 
+//#-hidden-code
+import PlaygroundSupport
 
-let str = "Hello, playground"
+let coisa = 0
+func changeCoisa(porcentagem: Int) {
+    percet = porcentagem
+    
+    PlaygroundPage.current.liveView = scne_Contrast()
+}
+//#-end-hidden-code
+//#-editable-code
+changeCoisa(porcentagem: 0)
+//#-end-editable-code

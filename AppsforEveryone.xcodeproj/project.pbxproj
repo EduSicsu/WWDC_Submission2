@@ -20,6 +20,16 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */; };
+		C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */; };
+		C49C30F22242A77300B93AB1 /* Scene_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30F12242A77300B93AB1 /* Scene_Color.swift */; };
+		C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30F32242A78300B93AB1 /* Scene_Color.sks */; };
+		C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */; };
+		C49C30FB2242A7E700B93AB1 /* Scene_Texture.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30FA2242A7E700B93AB1 /* Scene_Texture.sks */; };
+		C49C30FE2242A81C00B93AB1 /* Scene_VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */; };
+		C49C31002242A83B00B93AB1 /* Scene_VoiceOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30FF2242A83B00B93AB1 /* Scene_VoiceOver.sks */; };
+		C49C31032242AA7300B93AB1 /* Scene_Blind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C31022242AA7300B93AB1 /* Scene_Blind.swift */; };
+		C49C31052242AA8200B93AB1 /* Scene_Blind.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C31042242AA8200B93AB1 /* Scene_Blind.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -111,6 +121,16 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
+		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
+		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
+		C49C30F32242A78300B93AB1 /* Scene_Color.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Color.sks; sourceTree = "<group>"; };
+		C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Texture.swift; sourceTree = "<group>"; };
+		C49C30FA2242A7E700B93AB1 /* Scene_Texture.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Texture.sks; sourceTree = "<group>"; };
+		C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_VoiceOver.swift; sourceTree = "<group>"; };
+		C49C30FF2242A83B00B93AB1 /* Scene_VoiceOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_VoiceOver.sks; sourceTree = "<group>"; };
+		C49C31022242AA7300B93AB1 /* Scene_Blind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Blind.swift; sourceTree = "<group>"; };
+		C49C31042242AA8200B93AB1 /* Scene_Blind.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Blind.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +261,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				C49C30EA2242A1B100B93AB1 /* GameScenes */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 			);
@@ -250,6 +271,7 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
 			);
@@ -262,6 +284,62 @@
 				5EF2F9A52054BBB200191409 /* Sources */,
 			);
 			name = "Supporting Content";
+			sourceTree = "<group>";
+		};
+		C49C30EA2242A1B100B93AB1 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				C49C31012242A85200B93AB1 /* Scene_Blind */,
+				C49C30FC2242A80600B93AB1 /* Scene_VoiceOver */,
+				C49C30F52242A7A400B93AB1 /* Scene_Texture */,
+				C49C30F02242A74B00B93AB1 /* Scene_Color */,
+				C49C30EB2242A45700B93AB1 /* Scene_Contrast */,
+			);
+			path = GameScenes;
+			sourceTree = "<group>";
+		};
+		C49C30EB2242A45700B93AB1 /* Scene_Contrast */ = {
+			isa = PBXGroup;
+			children = (
+				C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */,
+			);
+			path = Scene_Contrast;
+			sourceTree = "<group>";
+		};
+		C49C30F02242A74B00B93AB1 /* Scene_Color */ = {
+			isa = PBXGroup;
+			children = (
+				C49C30F12242A77300B93AB1 /* Scene_Color.swift */,
+				C49C30F32242A78300B93AB1 /* Scene_Color.sks */,
+			);
+			path = Scene_Color;
+			sourceTree = "<group>";
+		};
+		C49C30F52242A7A400B93AB1 /* Scene_Texture */ = {
+			isa = PBXGroup;
+			children = (
+				C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */,
+				C49C30FA2242A7E700B93AB1 /* Scene_Texture.sks */,
+			);
+			path = Scene_Texture;
+			sourceTree = "<group>";
+		};
+		C49C30FC2242A80600B93AB1 /* Scene_VoiceOver */ = {
+			isa = PBXGroup;
+			children = (
+				C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */,
+				C49C30FF2242A83B00B93AB1 /* Scene_VoiceOver.sks */,
+			);
+			path = Scene_VoiceOver;
+			sourceTree = "<group>";
+		};
+		C49C31012242A85200B93AB1 /* Scene_Blind */ = {
+			isa = PBXGroup;
+			children = (
+				C49C31022242AA7300B93AB1 /* Scene_Blind.swift */,
+				C49C31042242AA8200B93AB1 /* Scene_Blind.sks */,
+			);
+			path = Scene_Blind;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -371,6 +449,11 @@
 			files = (
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */,
+				C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */,
+				C49C31052242AA8200B93AB1 /* Scene_Blind.sks in Resources */,
+				C49C30FB2242A7E700B93AB1 /* Scene_Texture.sks in Resources */,
+				C49C31002242A83B00B93AB1 /* Scene_VoiceOver.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +499,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49C30F22242A77300B93AB1 /* Scene_Color.swift in Sources */,
+				C49C30FE2242A81C00B93AB1 /* Scene_VoiceOver.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */,
+				C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */,
+				C49C31032242AA7300B93AB1 /* Scene_Blind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
