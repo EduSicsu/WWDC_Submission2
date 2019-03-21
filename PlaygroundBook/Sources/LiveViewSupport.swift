@@ -56,7 +56,7 @@ public func scne_Color() -> SKView{
 
 public func scne_Texture() -> SKView{
     let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
-    if let scene = SKScene(fileNamed: "Scene_Texture") {
+    if let scene = SKScene(fileNamed: "Scene_Pattern") {
         // Set the scale mode to scale to fit the window
         scene.scaleMode = .aspectFill
         
@@ -90,4 +90,4 @@ public func scne_Blind() -> SKView{
     return sceneView
 }
 
-//batata
+//potato is nice!

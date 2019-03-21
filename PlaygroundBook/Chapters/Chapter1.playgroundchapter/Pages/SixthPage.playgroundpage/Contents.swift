@@ -10,4 +10,4 @@ Our mission now is helping them to differentiate colors, a good tip is inserting
 
 */
 
-let str = "Hello, playground"
+let str = "Hello, playground, TA DANDO ERRO"

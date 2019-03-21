@@ -20,6 +20,8 @@
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D302243BC950030D2E7 /* Scene_Pattern.swift */; };
+		80A65D352243C23C0030D2E7 /* Scene_Pattern.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */; };
 		80C4C5F22242CDD300FE25D2 /* Asset 19.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4072242CDD300FE25D2 /* Asset 19.svg */; };
 		80C4C5F32242CDD300FE25D2 /* Asset 25.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4082242CDD300FE25D2 /* Asset 25.svg */; };
 		80C4C5F42242CDD300FE25D2 /* Asset 24.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4092242CDD300FE25D2 /* Asset 24.svg */; };
@@ -440,6 +442,8 @@
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		80A65D302243BC950030D2E7 /* Scene_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Pattern.swift; sourceTree = "<group>"; };
+		80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Pattern.sks; sourceTree = "<group>"; };
 		80C4C4072242CDD300FE25D2 /* Asset 19.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 19.svg"; sourceTree = "<group>"; };
 		80C4C4082242CDD300FE25D2 /* Asset 25.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 25.svg"; sourceTree = "<group>"; };
 		80C4C4092242CDD300FE25D2 /* Asset 24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 24.svg"; sourceTree = "<group>"; };
@@ -760,7 +764,6 @@
 		80C4C5EE2242CDD300FE25D2 /* sadSonnyAsset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sadSonnyAsset@2x.png"; sourceTree = "<group>"; };
 		80C4C5F02242CDD300FE25D2 /* sadSonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadSonnyAsset.png; sourceTree = "<group>"; };
 		80C4C5F12242CDD300FE25D2 /* happySonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happySonnyAsset.png; sourceTree = "<group>"; };
-		80CAED582242FAE200FBA2A2 /* Scene_Texture.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Scene_Texture.sks; path = PlaygroundBook/PrivateResources/GameScenes/Scene_Blind/Scene_Texture.sks; sourceTree = SOURCE_ROOT; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -916,6 +919,7 @@
 				C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */,
 				C49C30F12242A77300B93AB1 /* Scene_Color.swift */,
 				C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */,
+				80A65D302243BC950030D2E7 /* Scene_Pattern.swift */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
 			);
@@ -2208,7 +2212,7 @@
 		C49C30F52242A7A400B93AB1 /* Scene_Texture */ = {
 			isa = PBXGroup;
 			children = (
-				80CAED582242FAE200FBA2A2 /* Scene_Texture.sks */,
+				80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */,
 			);
 			path = Scene_Texture;
 			sourceTree = "<group>";
@@ -2550,6 +2554,7 @@
 				80C4C6E32242CDD400FE25D2 /* orangeProtanopiaPattern@2x.png in Resources */,
 				80C4C6602242CDD400FE25D2 /* redDeuteranopiaSolid@3x.png in Resources */,
 				80C4C66E2242CDD400FE25D2 /* blueTritanopiaSolid@3x.png in Resources */,
+				80A65D352243C23C0030D2E7 /* Scene_Pattern.sks in Resources */,
 				80C4C6E12242CDD400FE25D2 /* redProtanopiaPattern@3x.png in Resources */,
 				80C4C6A52242CDD400FE25D2 /* orangeDeuteranomalySolid@2x.png in Resources */,
 				80C4C6A12242CDD400FE25D2 /* orangeDeuteranomalySolid@3x.png in Resources */,
@@ -2710,6 +2715,7 @@
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
 				C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */,
 				80CAED542242D00B00FBA2A2 /* Scene_Color.swift in Sources */,
+				80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */,
 				C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */,
 				C49C31032242AA7300B93AB1 /* Scene_Blind.swift in Sources */,
 			);
