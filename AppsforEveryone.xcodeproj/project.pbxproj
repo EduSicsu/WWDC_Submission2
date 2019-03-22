@@ -354,7 +354,6 @@
 		C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */; };
 		C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */; };
 		C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30F32242A78300B93AB1 /* Scene_Color.sks */; };
-		C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */; };
 		C49C30FE2242A81C00B93AB1 /* Scene_VoiceOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */; };
 		C49C31002242A83B00B93AB1 /* Scene_VoiceOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30FF2242A83B00B93AB1 /* Scene_VoiceOver.sks */; };
 		C49C31032242AA7300B93AB1 /* Scene_Blind.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C31022242AA7300B93AB1 /* Scene_Blind.swift */; };
@@ -784,7 +783,6 @@
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
 		C49C30F32242A78300B93AB1 /* Scene_Color.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Color.sks; sourceTree = "<group>"; };
-		C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Texture.swift; sourceTree = "<group>"; };
 		C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_VoiceOver.swift; sourceTree = "<group>"; };
 		C49C30FF2242A83B00B93AB1 /* Scene_VoiceOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_VoiceOver.sks; sourceTree = "<group>"; };
 		C49C31022242AA7300B93AB1 /* Scene_Blind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Blind.swift; sourceTree = "<group>"; };
@@ -931,7 +929,6 @@
 			children = (
 				C49C31022242AA7300B93AB1 /* Scene_Blind.swift */,
 				C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */,
-				C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */,
 				C49C30F12242A77300B93AB1 /* Scene_Color.swift */,
 				80A65D41224510910030D2E7 /* Scene_Accessibility.swift */,
 				C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */,
@@ -2832,7 +2829,6 @@
 				80A65D3A2243CDA40030D2E7 /* Scene_Introduction.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				8052E9A7224518120007473A /* Scene_Personal.swift in Sources */,
-				C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */,
 				80CAED542242D00B00FBA2A2 /* Scene_Color.swift in Sources */,
 				80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */,
 				C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */,

@@ -1,3 +1,11 @@
+//#-hidden-code
+
+func colorBlindness(kind: Kind) {
+    kindBlind = kind
+}
+
+//#-end-hidden-code
+
 /*:
  
  #  Let's help Nick
@@ -8,19 +16,24 @@ Our mission now is helping them to differentiate colors, a good tip is inserting
  
  [Please click here to go to the next page.](@next)
 */
+
+colorBlindness(kind: /*#-editable-code*/.colorNormal/*#-end-editable-code*/)
+
 // Change the values above:
-
 // The red color:
-let str = "Hello, playground"
-
+boxRed = /*#-editable-code*/.normal/*#-end-editable-code*/
 // now, the green color:
-let str = "Hello, playground"
+boxGreen = /*#-editable-code*/.normal/*#-end-editable-code*/
 
 // almost done, change the blue color:
-let str = "Hello, playground"
+boxBlue = /*#-editable-code*/.normal/*#-end-editable-code*/
 
 // finally, orange color:
-let str = "Hello, playground"
+boxOrange = /*#-editable-code*/.normal/*#-end-editable-code*/
 
+//#-hidden-code
+import PlaygroundSupport
 
+PlaygroundPage.current.liveView = scne_Texture()
+//#-end-hidden-code
 // Now run the code and check
