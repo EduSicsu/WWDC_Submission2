@@ -24,6 +24,8 @@
 		80A65D3A2243CDA40030D2E7 /* Scene_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D392243CDA40030D2E7 /* Scene_Introduction.swift */; };
 		80A65D3D2243CF250030D2E7 /* Scene_Final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D3C2243CF250030D2E7 /* Scene_Final.swift */; };
 		80A65D3F2243CF3B0030D2E7 /* Scene_Final.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D3E2243CF3B0030D2E7 /* Scene_Final.sks */; };
+		80A65D42224510910030D2E7 /* Scene_Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D41224510910030D2E7 /* Scene_Accessibility.swift */; };
+		80A65D44224510A90030D2E7 /* Scene_Accessibility.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D43224510A90030D2E7 /* Scene_Accessibility.sks */; };
 		80C4C5F22242CDD300FE25D2 /* Asset 19.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4072242CDD300FE25D2 /* Asset 19.svg */; };
 		80C4C5F32242CDD300FE25D2 /* Asset 25.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4082242CDD300FE25D2 /* Asset 25.svg */; };
 		80C4C5F42242CDD300FE25D2 /* Asset 24.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4092242CDD300FE25D2 /* Asset 24.svg */; };
@@ -448,6 +450,8 @@
 		80A65D392243CDA40030D2E7 /* Scene_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Introduction.swift; sourceTree = "<group>"; };
 		80A65D3C2243CF250030D2E7 /* Scene_Final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Final.swift; sourceTree = "<group>"; };
 		80A65D3E2243CF3B0030D2E7 /* Scene_Final.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Final.sks; sourceTree = "<group>"; };
+		80A65D41224510910030D2E7 /* Scene_Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Accessibility.swift; sourceTree = "<group>"; };
+		80A65D43224510A90030D2E7 /* Scene_Accessibility.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Accessibility.sks; sourceTree = "<group>"; };
 		80C4C4072242CDD300FE25D2 /* Asset 19.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 19.svg"; sourceTree = "<group>"; };
 		80C4C4082242CDD300FE25D2 /* Asset 25.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 25.svg"; sourceTree = "<group>"; };
 		80C4C4092242CDD300FE25D2 /* Asset 24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 24.svg"; sourceTree = "<group>"; };
@@ -921,6 +925,7 @@
 				C49C30FD2242A81C00B93AB1 /* Scene_VoiceOver.swift */,
 				C49C30F62242A7B900B93AB1 /* Scene_Texture.swift */,
 				C49C30F12242A77300B93AB1 /* Scene_Color.swift */,
+				80A65D41224510910030D2E7 /* Scene_Accessibility.swift */,
 				C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */,
 				80A65D302243BC950030D2E7 /* Scene_Pattern.swift */,
 				80A65D3C2243CF250030D2E7 /* Scene_Final.swift */,
@@ -952,6 +957,14 @@
 				80A65D3E2243CF3B0030D2E7 /* Scene_Final.sks */,
 			);
 			path = Scene_Final;
+			sourceTree = "<group>";
+		};
+		80A65D40224510400030D2E7 /* Scene_Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				80A65D43224510A90030D2E7 /* Scene_Accessibility.sks */,
+			);
+			path = Scene_Accessibility;
 			sourceTree = "<group>";
 		};
 		80C4C4042242CDD300FE25D2 /* Assets */ = {
@@ -2204,6 +2217,7 @@
 		C49C30EA2242A1B100B93AB1 /* GameScenes */ = {
 			isa = PBXGroup;
 			children = (
+				80A65D40224510400030D2E7 /* Scene_Accessibility */,
 				80A65D3B2243CF0E0030D2E7 /* Scene_Final */,
 				80A65D362243CD540030D2E7 /* Scene_Introduction */,
 				C49C31012242A85200B93AB1 /* Scene_Blind */,
@@ -2549,6 +2563,7 @@
 				80C4C6F92242CDD400FE25D2 /* greenDeuteranopiaPattern.png in Resources */,
 				80C4C6912242CDD400FE25D2 /* orangeProtanopiaSolid@3x.png in Resources */,
 				80C4C7512242CDD400FE25D2 /* sadAnnyAsset@3x.png in Resources */,
+				80A65D44224510A90030D2E7 /* Scene_Accessibility.sks in Resources */,
 				80C4C5F52242CDD300FE25D2 /* Asset 18.svg in Resources */,
 				80C4C71B2242CDD400FE25D2 /* Asset 69.svg in Resources */,
 				80C4C6272242CDD400FE25D2 /* orangePartialMonochromacySolid.png in Resources */,
@@ -2734,6 +2749,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C49C30FE2242A81C00B93AB1 /* Scene_VoiceOver.swift in Sources */,
+				80A65D42224510910030D2E7 /* Scene_Accessibility.swift in Sources */,
 				80A65D3A2243CDA40030D2E7 /* Scene_Introduction.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */,
