@@ -1,3 +1,14 @@
+//#-hidden-code
+import PlaygroundSupport
+
+
+
+func colorBlindness(kind: Kind) {
+    kindBlind = kind
+    
+    PlaygroundPage.current.liveView = scne_Color()
+}
+//#-end-hidden-code
 /*:
  
  #  Let's meet another one
@@ -12,5 +23,4 @@
 
  */
 //  Nick has color blindness: Deuteranopia 
-
-let str = "Hello, playground"
+colorBlindness(kind: /*#-editable-code*/.colorNormal/*#-end-editable-code*/)

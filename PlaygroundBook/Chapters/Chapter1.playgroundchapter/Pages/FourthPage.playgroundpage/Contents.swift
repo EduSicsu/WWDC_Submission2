@@ -1,5 +1,13 @@
+//#-hidden-code
+import PlaygroundSupport
+
+func changeContrast(percent: Int) {
+    percet = percent
+    
+    PlaygroundPage.current.liveView = scne_Contrast()
+}
+//#-end-hidden-code
 /*:
- 
  #  Let's meet our first friend
  
  Well, this is Anny. She has vision impairment and for these people is very uncomfortable when there is low contrast in the buttons, texts, blur or even a transparency effect.
@@ -11,21 +19,6 @@
  Our mission here is to help Anny to better see the button in front of her, so you will need to:
 
  [Please click here to go to the next page.](@next)
-
- 
- */
+*/
 // Adjust the variable below for the asset that fits your vision:
-
-//#-hidden-code
-import PlaygroundSupport
-
-let coisa = 0
-func changeCoisa(porcentagem: Int) {
-    percet = porcentagem
-    
-    PlaygroundPage.current.liveView = scne_Contrast()
-}
-//#-end-hidden-code
-//#-editable-code
-changeCoisa(porcentagem: 0)
-//#-end-editable-code
+changeContrast(percent: /*#-editable-code*/0/*#-end-editable-code*/)

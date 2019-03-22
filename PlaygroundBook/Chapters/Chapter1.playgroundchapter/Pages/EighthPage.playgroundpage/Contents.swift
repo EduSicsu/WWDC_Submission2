@@ -8,7 +8,17 @@
  
  [Please click here to go to the next page.](@next)
 
- 
 */
+// Adjust the voiceOver and test:
 
+// Set a title:
 let str = "Hello, playground"
+
+// Set a image now:
+let str = "Hello, playground"
+
+// And set the correct text:
+let str = "Hello, playground"
+
+
+// Run the code for check:
