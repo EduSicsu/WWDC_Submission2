@@ -37,7 +37,7 @@ public class Scene_VoiceOver: SKScene{
     }
     
     public override func sceneDidLoad() {
-        if screenContain {
+        if screenCurtain {
             let caixa = SKSpriteNode(color: .black, size: self.size)
             self.addChild(caixa)
             

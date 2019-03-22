@@ -42,7 +42,7 @@ public var boxOrange = Pattern.normal
 
 //page 7
 
-public var screenContain = false
+public var screenCurtain = false
 public var voiceOver = false
 
 //page 8
