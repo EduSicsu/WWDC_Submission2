@@ -22,3 +22,9 @@ func changeContrast(percent: Int) {
 */
 // Adjust the variable below for the asset that fits your vision:
 changeContrast(percent: /*#-editable-code*/0/*#-end-editable-code*/)
+
+
+
+
+
+// Tip: for help her, insert a value over 90.

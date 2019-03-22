@@ -16,12 +16,14 @@ Our mission now is helping them to differentiate colors, a good tip is inserting
  
  [Please click here to go to the next page.](@next)
 */
-
+// Set the blindness color values if you want:
 colorBlindness(kind: /*#-editable-code*/.colorNormal/*#-end-editable-code*/)
 
 // Change the values above:
+
 // The red color:
 boxRed = /*#-editable-code*/.normal/*#-end-editable-code*/
+
 // now, the green color:
 boxGreen = /*#-editable-code*/.normal/*#-end-editable-code*/
 
