@@ -14,7 +14,7 @@ public class Scene_Blind: SKScene{
     
     let tapRec2 = UITapGestureRecognizer()
     
-    var index = 0
+    var index = -1
     var firtSwipe = true
     
     let speechSynthesizer = AVSpeechSynthesizer()
@@ -35,60 +35,127 @@ public class Scene_Blind: SKScene{
     }
     
     @objc func swipedRight() {
-        if firtSwipe{
-            firtSwipe = false
+        
+        if index == 2{
+            index = 0
         }
         else{
-            if index == 2{
-                index = 0
-            }
-            else{
-                index += 1
-            }
-        }
-        
-        
-    }
-    
-    @objc func swipedLeft() {
-        if firtSwipe{
-            firtSwipe = false
-        }
-        else{
-            if index == 0{
-                index = 2
-            }
-            else{
-                index -= 1
-            }
-        }
-    }
-    
-    @objc func tappedView2(_ sender:UITapGestureRecognizer) {
-        
-        let point:CGPoint = sender.location(in: self.view)
-        if firtSwipe{
-            firtSwipe = false
-            //destacar o primeiro
+            index += 1
         }
         speechSynthesizer.stopSpeaking(at: .immediate)
         //and run
         switch index {
         case 0:
             let speechUtterance = AVSpeechUtterance(string: describeTitle)
-             speechSynthesizer.speak(speechUtterance)
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "mark26")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "Asset 36")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "Asset 32")
+                }
+            }
         case 1:
             let speechUtterance = AVSpeechUtterance(string: describeImage)
             speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "Asset 33")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "mark30")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "Asset 32")
+                }
+            }
         case 2:
             let speechUtterance = AVSpeechUtterance(string: describeText)
             speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "Asset 33")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "Asset 36")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "mark27")
+                }
+            }
         default:
             return
         }
-       
         
-        print(point)
+    }
+    
+    @objc func swipedLeft() {
+        speechSynthesizer.stopSpeaking(at: .immediate)
+        
+        if index == 0{
+            index = 2
+        }
+        else{
+            index -= 1
+        }
+        
+        speechSynthesizer.stopSpeaking(at: .immediate)
+        //and run
+        switch index {
+        case 0:
+            let speechUtterance = AVSpeechUtterance(string: describeTitle)
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "mark26")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "Asset 36")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "Asset 32")
+                }
+            }
+        case 1:
+            let speechUtterance = AVSpeechUtterance(string: describeImage)
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "Asset 33")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "mark30")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "Asset 32")
+                }
+            }
+        case 2:
+            let speechUtterance = AVSpeechUtterance(string: describeText)
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let fruta = pai.childNode(withName: "Fruta") as? SKSpriteNode{
+                    fruta.texture = SKTexture(imageNamed: "Asset 33")
+                }
+                if let frutaImage = pai.childNode(withName: "Fruta_Imagem") as? SKSpriteNode{
+                    frutaImage.texture = SKTexture(imageNamed: "Asset 36")
+                }
+                if let description = pai.childNode(withName: "Description") as? SKSpriteNode{
+                    description.texture = SKTexture(imageNamed: "mark27")
+                }
+            }
+        default:
+            return
+        }
+    }
+    
+    @objc func tappedView2(_ sender:UITapGestureRecognizer) {
+        
+        
         
     }
     
