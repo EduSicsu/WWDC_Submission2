@@ -14,4 +14,13 @@
 */
 // For a full experience, activate the Screen Curtain. Use the variable below:
 
-let str = "Hello, playground"
+screenContain = /*#-editable-code*/false/*#-end-editable-code*/
+voiceOver = /*#-editable-code*/false/*#-end-editable-code*/
+
+
+//#-hidden-code
+import PlaygroundSupport
+
+PlaygroundPage.current.needsIndefiniteExecution = true
+PlaygroundPage.current.liveView = scne_VoiceOver()
+//#-end-hidden-code
