@@ -18,6 +18,15 @@
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
+		8052E99B224512E70007473A /* glasses3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E990224512E70007473A /* glasses3@3x.png */; };
+		8052E99C224512E70007473A /* glasses1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E991224512E70007473A /* glasses1@3x.png */; };
+		8052E99D224512E70007473A /* glasses2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E992224512E70007473A /* glasses2@3x.png */; };
+		8052E99E224512E70007473A /* glasses1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E994224512E70007473A /* glasses1@2x.png */; };
+		8052E99F224512E70007473A /* glasses3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E995224512E70007473A /* glasses3@2x.png */; };
+		8052E9A0224512E70007473A /* glasses2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E996224512E70007473A /* glasses2@2x.png */; };
+		8052E9A1224512E70007473A /* glasses3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E998224512E70007473A /* glasses3.png */; };
+		8052E9A2224512E70007473A /* glasses2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E999224512E70007473A /* glasses2.png */; };
+		8052E9A3224512E70007473A /* glasses1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E99A224512E70007473A /* glasses1.png */; };
 		80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D302243BC950030D2E7 /* Scene_Pattern.swift */; };
 		80A65D352243C23C0030D2E7 /* Scene_Pattern.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */; };
 		80A65D382243CD790030D2E7 /* Scene_Introduction.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D372243CD790030D2E7 /* Scene_Introduction.sks */; };
@@ -444,6 +453,15 @@
 		5EF2F9A52054BBB200191409 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
+		8052E990224512E70007473A /* glasses3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses3@3x.png"; sourceTree = "<group>"; };
+		8052E991224512E70007473A /* glasses1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses1@3x.png"; sourceTree = "<group>"; };
+		8052E992224512E70007473A /* glasses2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses2@3x.png"; sourceTree = "<group>"; };
+		8052E994224512E70007473A /* glasses1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses1@2x.png"; sourceTree = "<group>"; };
+		8052E995224512E70007473A /* glasses3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses3@2x.png"; sourceTree = "<group>"; };
+		8052E996224512E70007473A /* glasses2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glasses2@2x.png"; sourceTree = "<group>"; };
+		8052E998224512E70007473A /* glasses3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses3.png; sourceTree = "<group>"; };
+		8052E999224512E70007473A /* glasses2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses2.png; sourceTree = "<group>"; };
+		8052E99A224512E70007473A /* glasses1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses1.png; sourceTree = "<group>"; };
 		80A65D302243BC950030D2E7 /* Scene_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Pattern.swift; sourceTree = "<group>"; };
 		80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Pattern.sks; sourceTree = "<group>"; };
 		80A65D372243CD790030D2E7 /* Scene_Introduction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Introduction.sks; sourceTree = "<group>"; };
@@ -943,6 +961,46 @@
 			name = "Supporting Content";
 			sourceTree = "<group>";
 		};
+		8052E98E224512E70007473A /* glasses */ = {
+			isa = PBXGroup;
+			children = (
+				8052E98F224512E70007473A /* 3x */,
+				8052E993224512E70007473A /* 2x */,
+				8052E997224512E70007473A /* 1x */,
+			);
+			path = glasses;
+			sourceTree = "<group>";
+		};
+		8052E98F224512E70007473A /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				8052E990224512E70007473A /* glasses3@3x.png */,
+				8052E991224512E70007473A /* glasses1@3x.png */,
+				8052E992224512E70007473A /* glasses2@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		8052E993224512E70007473A /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				8052E994224512E70007473A /* glasses1@2x.png */,
+				8052E995224512E70007473A /* glasses3@2x.png */,
+				8052E996224512E70007473A /* glasses2@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		8052E997224512E70007473A /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				8052E998224512E70007473A /* glasses3.png */,
+				8052E999224512E70007473A /* glasses2.png */,
+				8052E99A224512E70007473A /* glasses1.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
 		80A65D362243CD540030D2E7 /* Scene_Introduction */ = {
 			isa = PBXGroup;
 			children = (
@@ -970,6 +1028,7 @@
 		80C4C4042242CDD300FE25D2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				8052E98E224512E70007473A /* glasses */,
 				80C4C4052242CDD300FE25D2 /* Buttons */,
 				80C4C4322242CDD300FE25D2 /* Colors */,
 				80C4C5AF2242CDD300FE25D2 /* fruits */,
@@ -2378,6 +2437,7 @@
 				80C4C6752242CDD400FE25D2 /* orangeTritanopiaSolid@2x.png in Resources */,
 				80C4C6082242CDD300FE25D2 /* 55percent@2x.png in Resources */,
 				80C4C6232242CDD400FE25D2 /* orangePartialMonochromacySolid@2x.png in Resources */,
+				8052E9A3224512E70007473A /* glasses1.png in Resources */,
 				80C4C7142242CDD400FE25D2 /* greenProtanomalyPattern@2x.png in Resources */,
 				80C4C7192242CDD400FE25D2 /* orangeProtanomalyPattern.png in Resources */,
 				80C4C7392242CDD400FE25D2 /* orangeTritanomalyPattern.png in Resources */,
@@ -2391,6 +2451,7 @@
 				80C4C70C2242CDD400FE25D2 /* Asset 62.svg in Resources */,
 				80C4C6462242CDD400FE25D2 /* orangeTritanomalySolid.png in Resources */,
 				80C4C70D2242CDD400FE25D2 /* Asset 63.svg in Resources */,
+				8052E99C224512E70007473A /* glasses1@3x.png in Resources */,
 				80C4C6172242CDD300FE25D2 /* 50percent.png in Resources */,
 				80C4C6BC2242CDD400FE25D2 /* Asset 73.svg in Resources */,
 				80C4C7262242CDD400FE25D2 /* orangeNormalPattern.png in Resources */,
@@ -2424,6 +2485,7 @@
 				80C4C6AA2242CDD400FE25D2 /* Asset 85.svg in Resources */,
 				80C4C6A92242CDD400FE25D2 /* redDeuteranomalySolid.png in Resources */,
 				80C4C6702242CDD400FE25D2 /* redTritanopiaSolid@3x.png in Resources */,
+				8052E9A0224512E70007473A /* glasses2@2x.png in Resources */,
 				80C4C75D2242CDD400FE25D2 /* happySonnyAsset.png in Resources */,
 				80C4C6C42242CDD400FE25D2 /* redMonochromacyPattern@2x.png in Resources */,
 				80C4C6C82242CDD400FE25D2 /* greenMonochromacyPattern.png in Resources */,
@@ -2440,6 +2502,7 @@
 				80C4C6442242CDD400FE25D2 /* orangeTritanomalySolid.png@2x.png in Resources */,
 				80C4C61E2242CDD400FE25D2 /* redPartialMonochromacySolid@3x.png in Resources */,
 				80C4C5FE2242CDD300FE25D2 /* 45percent@3x.png in Resources */,
+				8052E9A1224512E70007473A /* glasses3.png in Resources */,
 				80C4C6B72242CDD400FE25D2 /* blueTritanopiaPattern.png in Resources */,
 				80C4C6C22242CDD400FE25D2 /* greenMonochromacyPattern@2x.png in Resources */,
 				80C4C7122242CDD400FE25D2 /* orangeProtanomalyPattern@2x.png in Resources */,
@@ -2540,6 +2603,7 @@
 				80C4C6822242CDD400FE25D2 /* redNormalSolid@2x.png in Resources */,
 				80C4C6BF2242CDD400FE25D2 /* greenMonochromacyPattern@3x.png in Resources */,
 				80C4C67F2242CDD400FE25D2 /* redNormalSolid@3x.png in Resources */,
+				8052E99F224512E70007473A /* glasses3@2x.png in Resources */,
 				80C4C6572242CDD400FE25D2 /* greenMonochromacySolid.png in Resources */,
 				80C4C7332242CDD400FE25D2 /* blueTritanomalyPattern@2x.png in Resources */,
 				80C4C6662242CDD400FE25D2 /* blueDeuteranopiaSolid.png in Resources */,
@@ -2618,14 +2682,17 @@
 				80C4C6E62242CDD400FE25D2 /* orangeProtanopiaPattern.png in Resources */,
 				80C4C6642242CDD400FE25D2 /* greenDeuteranopiaSolid@2x.png in Resources */,
 				80C4C6612242CDD400FE25D2 /* orangeDeuteranopiaSolid@3x.png in Resources */,
+				8052E99D224512E70007473A /* glasses2@3x.png in Resources */,
 				80C4C73D2242CDD400FE25D2 /* jamboAsset.png in Resources */,
 				80C4C70A2242CDD400FE25D2 /* Asset 64.svg in Resources */,
 				80C4C6372242CDD400FE25D2 /* orangeProtanomalySolid.png in Resources */,
 				80C4C6ED2242CDD400FE25D2 /* Asset 49.svg in Resources */,
 				80C4C6952242CDD400FE25D2 /* orangeProtanopiaSolid@2x.png in Resources */,
 				80C4C70F2242CDD400FE25D2 /* redProtanomalyPattern@3x.png in Resources */,
+				8052E9A2224512E70007473A /* glasses2.png in Resources */,
 				80C4C6252242CDD400FE25D2 /* bluePartialMonochromacySolid@2x.png in Resources */,
 				80C4C61F2242CDD400FE25D2 /* greenPartialMonochromacySolid@3x.png in Resources */,
+				8052E99B224512E70007473A /* glasses3@3x.png in Resources */,
 				80C4C6B82242CDD400FE25D2 /* redTritanopiaPattern.png in Resources */,
 				80C4C6532242CDD400FE25D2 /* orangeMonochromacySolid@2x.png in Resources */,
 				80C4C6A82242CDD400FE25D2 /* greenDeuteranomalySolid.png in Resources */,
@@ -2684,6 +2751,7 @@
 				80C4C6812242CDD400FE25D2 /* orangeNormalSolid@3x.png in Resources */,
 				80C4C7152242CDD400FE25D2 /* redProtanomalyPattern@2x.png in Resources */,
 				80C4C6792242CDD400FE25D2 /* orangeTritanopiaSolid.png in Resources */,
+				8052E99E224512E70007473A /* glasses1@2x.png in Resources */,
 				80C4C6FD2242CDD400FE25D2 /* Asset 55.svg in Resources */,
 				80C4C6F22242CDD400FE25D2 /* orangeDeuteranopiaPattern@2x.png in Resources */,
 				80C4C6092242CDD300FE25D2 /* 75percent@2x.png in Resources */,
