@@ -15,7 +15,7 @@ public class Scene_VoiceOver: SKScene{
     
     let tapRec2 = UITapGestureRecognizer()
     
-    var index = 0
+    var index = -1
     var firtSwipe = true
     
     let speechSynthesizer = AVSpeechSynthesizer()
@@ -45,60 +45,127 @@ public class Scene_VoiceOver: SKScene{
     }
     
     @objc func swipedRight() {
-        if firtSwipe{
-            firtSwipe = false
+        if index == 2{
+            index = 0
         }
         else{
-            if index == 2{
-                index = 0
-            }
-            else{
-                index += 1
-            }
-        }
-        
-        
-    }
-    
-    @objc func swipedLeft() {
-        if firtSwipe{
-            firtSwipe = false
-        }
-        else{
-            if index == 0{
-                index = 2
-            }
-            else{
-                index -= 1
-            }
-        }
-    }
-    
-    @objc func tappedView2(_ sender:UITapGestureRecognizer) {
-        
-        let point:CGPoint = sender.location(in: self.view)
-        
-        if firtSwipe{
-            firtSwipe = false
-            //destacar o primeiro
+            index += 1
         }
         speechSynthesizer.stopSpeaking(at: .immediate)
         //and run
         switch index {
         case 0:
-            let speechUtterance = AVSpeechUtterance(string: describeTitle)
+            let speechUtterance = AVSpeechUtterance(string: "Placa com um o rosto")
             speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "mark28")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "Asset 35")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "Asset 37")
+                }
+            }
         case 1:
-            let speechUtterance = AVSpeechUtterance(string: describeImage)
+            let speechUtterance = AVSpeechUtterance(string: "Sonny's portrait")
             speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "Asset 34")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "mark29")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "Asset 37")
+                }
+            }
         case 2:
-            let speechUtterance = AVSpeechUtterance(string: describeText)
+            let speechUtterance = AVSpeechUtterance(string: "seems like a button")
             speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "Asset 34")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "Asset 35")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "mark31")
+                }
+            }
         default:
             return
         }
+    }
+    
+    @objc func swipedLeft() {
         
-        print(point)
+        if index == 0{
+            index = 2
+        }
+        else{
+            index -= 1
+        }
+        
+        speechSynthesizer.stopSpeaking(at: .immediate)
+        //and run
+        switch index {
+        case 0:
+            let speechUtterance = AVSpeechUtterance(string: "Placa com um o rosto")
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "mark28")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "Asset 35")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "Asset 37")
+                }
+            }
+        case 1:
+            let speechUtterance = AVSpeechUtterance(string: "Sonny's portrait")
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "Asset 34")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "mark29")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "Asset 37")
+                }
+            }
+        case 2:
+            let speechUtterance = AVSpeechUtterance(string: "seems like a button")
+            speechSynthesizer.speak(speechUtterance)
+            if let pai = self.childNode(withName: "Pai"){
+                if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
+                    placa.texture = SKTexture(imageNamed: "Asset 34")
+                }
+                if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
+                    label.texture = SKTexture(imageNamed: "Asset 35")
+                }
+                if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
+                    button.texture = SKTexture(imageNamed: "mark31")
+                }
+            }
+        default:
+            return
+        }
+    }
+    
+    @objc func tappedView2(_ sender:UITapGestureRecognizer) {
+        
+        if(index == 2){
+            let speechUtterance = AVSpeechUtterance(string: "I'm not a button")
+            speechSynthesizer.speak(speechUtterance)
+        }
         
     }
     

@@ -20,10 +20,12 @@ describeImage = /*#-editable-code*/"Image"/*#-end-editable-code*/
 // And set the correct text:
 describeText = /*#-editable-code*/"Text"/*#-end-editable-code*/
 
+//#-hidden-code
 import PlaygroundSupport
 
 
 // Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
 PlaygroundPage.current.liveView = scne_Blind()
+//#-end-hidden-code
 
 // Run the code for check:
