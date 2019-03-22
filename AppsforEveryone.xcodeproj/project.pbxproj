@@ -358,6 +358,9 @@
 		80C4C75C2242CDD400FE25D2 /* sadSonnyAsset.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C5F02242CDD300FE25D2 /* sadSonnyAsset.png */; };
 		80C4C75D2242CDD400FE25D2 /* happySonnyAsset.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C5F12242CDD300FE25D2 /* happySonnyAsset.png */; };
 		80CAED542242D00B00FBA2A2 /* Scene_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30F12242A77300B93AB1 /* Scene_Color.swift */; };
+		80F738D122451F6D004EBAD3 /* me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F738CC22451F6C004EBAD3 /* me@3x.png */; };
+		80F738D222451F6D004EBAD3 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F738CE22451F6C004EBAD3 /* me@2x.png */; };
+		80F738D322451F6D004EBAD3 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F738D022451F6C004EBAD3 /* me.png */; };
 		C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */; };
 		C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */; };
 		C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30F32242A78300B93AB1 /* Scene_Color.sks */; };
@@ -794,6 +797,9 @@
 		80C4C5EE2242CDD300FE25D2 /* sadSonnyAsset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sadSonnyAsset@2x.png"; sourceTree = "<group>"; };
 		80C4C5F02242CDD300FE25D2 /* sadSonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sadSonnyAsset.png; sourceTree = "<group>"; };
 		80C4C5F12242CDD300FE25D2 /* happySonnyAsset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happySonnyAsset.png; sourceTree = "<group>"; };
+		80F738CC22451F6C004EBAD3 /* me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@3x.png"; sourceTree = "<group>"; };
+		80F738CE22451F6C004EBAD3 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		80F738D022451F6C004EBAD3 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -1041,6 +1047,7 @@
 		80C4C4042242CDD300FE25D2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				80F738CA22451F6C004EBAD3 /* me */,
 				8052E98E224512E70007473A /* glasses */,
 				80C4C4052242CDD300FE25D2 /* Buttons */,
 				80C4C4322242CDD300FE25D2 /* Colors */,
@@ -2286,6 +2293,40 @@
 			path = 1x;
 			sourceTree = "<group>";
 		};
+		80F738CA22451F6C004EBAD3 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				80F738CB22451F6C004EBAD3 /* 3x */,
+				80F738CD22451F6C004EBAD3 /* 2x */,
+				80F738CF22451F6C004EBAD3 /* 1x */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		80F738CB22451F6C004EBAD3 /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				80F738CC22451F6C004EBAD3 /* me@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		80F738CD22451F6C004EBAD3 /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				80F738CE22451F6C004EBAD3 /* me@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		80F738CF22451F6C004EBAD3 /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				80F738D022451F6C004EBAD3 /* me.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
 		C49C30EA2242A1B100B93AB1 /* GameScenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2528,6 +2569,7 @@
 				80C4C6102242CDD300FE25D2 /* 100percent.png in Resources */,
 				80C4C6542242CDD400FE25D2 /* redMonochromacySolid@2x.png in Resources */,
 				80C4C7002242CDD400FE25D2 /* greenDeuteranomalyPattern@3x.png in Resources */,
+				80F738D322451F6D004EBAD3 /* me.png in Resources */,
 				80C4C6352242CDD400FE25D2 /* greenProtanomalySolid@2x.png in Resources */,
 				80C4C6AE2242CDD400FE25D2 /* greenTritanopiaPattern@3x.png in Resources */,
 				80C4C6E22242CDD400FE25D2 /* blueProtanopiaPattern@2x.png in Resources */,
@@ -2673,6 +2715,7 @@
 				80A65D352243C23C0030D2E7 /* Scene_Pattern.sks in Resources */,
 				80C4C6E12242CDD400FE25D2 /* redProtanopiaPattern@3x.png in Resources */,
 				80C4C6A52242CDD400FE25D2 /* orangeDeuteranomalySolid@2x.png in Resources */,
+				80F738D222451F6D004EBAD3 /* me@2x.png in Resources */,
 				80C4C6A12242CDD400FE25D2 /* orangeDeuteranomalySolid@3x.png in Resources */,
 				80C4C7542242CDD400FE25D2 /* happyAnnyAsset.png in Resources */,
 				80C4C6DF2242CDD400FE25D2 /* orangeProtanopiaPattern@3x.png in Resources */,
@@ -2760,6 +2803,7 @@
 				80C4C60E2242CDD300FE25D2 /* 50percent@2x.png in Resources */,
 				80C4C6D82242CDD400FE25D2 /* redPartialMonochromacyPattern.png in Resources */,
 				80C4C71D2242CDD400FE25D2 /* Asset 66.svg in Resources */,
+				80F738D122451F6D004EBAD3 /* me@3x.png in Resources */,
 				80C4C6242242CDD400FE25D2 /* greenPartialMonochromacySolid@2x.png in Resources */,
 				80C4C7302242CDD400FE25D2 /* greenTritanomalyPattern@3x.png in Resources */,
 				80C4C6182242CDD300FE25D2 /* 60percent.png in Resources */,
