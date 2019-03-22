@@ -366,6 +366,7 @@
 		80F73A4222458D69004EBAD3 /* animation30.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A2422458D69004EBAD3 /* animation30.png */; };
 		80F73A4322458D69004EBAD3 /* animation26.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A2522458D69004EBAD3 /* animation26.png */; };
 		80F73A4422458D69004EBAD3 /* animation27.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A2622458D69004EBAD3 /* animation27.png */; };
+		80F73A4622458DFB004EBAD3 /* Action.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A4522458DFB004EBAD3 /* Action.sks */; };
 		C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */; };
 		C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */; };
 		C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30F32242A78300B93AB1 /* Scene_Color.sks */; };
@@ -813,6 +814,7 @@
 		80F73A2422458D69004EBAD3 /* animation30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation30.png; sourceTree = "<group>"; };
 		80F73A2522458D69004EBAD3 /* animation26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation26.png; sourceTree = "<group>"; };
 		80F73A2622458D69004EBAD3 /* animation27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation27.png; sourceTree = "<group>"; };
+		80F73A4522458DFB004EBAD3 /* Action.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Action.sks; sourceTree = "<group>"; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -971,6 +973,7 @@
 				8052E9A6224518120007473A /* Scene_Personal.swift */,
 				80A65D392243CDA40030D2E7 /* Scene_Introduction.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				80F73A4522458DFB004EBAD3 /* Action.sks */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -2795,6 +2798,7 @@
 				80C4C62F2242CDD400FE25D2 /* orangeProtanomalySolid@3x.png in Resources */,
 				80C4C6562242CDD400FE25D2 /* blueMonochromacySolid.png in Resources */,
 				80C4C6552242CDD400FE25D2 /* greenMonochromacySolid@2x.png in Resources */,
+				80F73A4622458DFB004EBAD3 /* Action.sks in Resources */,
 				80C4C7532242CDD400FE25D2 /* sadAnnyAsset@2x.png in Resources */,
 				80C4C75A2242CDD400FE25D2 /* happySonnyAsset@2x.png in Resources */,
 				80C4C6482242CDD400FE25D2 /* greenTritanomalySolid.png in Resources */,
