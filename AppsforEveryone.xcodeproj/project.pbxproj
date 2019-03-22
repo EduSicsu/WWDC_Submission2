@@ -37,16 +37,6 @@
 		80A65D3F2243CF3B0030D2E7 /* Scene_Final.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D3E2243CF3B0030D2E7 /* Scene_Final.sks */; };
 		80A65D42224510910030D2E7 /* Scene_Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D41224510910030D2E7 /* Scene_Accessibility.swift */; };
 		80A65D44224510A90030D2E7 /* Scene_Accessibility.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D43224510A90030D2E7 /* Scene_Accessibility.sks */; };
-		80C4C5F22242CDD300FE25D2 /* Asset 19.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4072242CDD300FE25D2 /* Asset 19.svg */; };
-		80C4C5F32242CDD300FE25D2 /* Asset 25.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4082242CDD300FE25D2 /* Asset 25.svg */; };
-		80C4C5F42242CDD300FE25D2 /* Asset 24.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4092242CDD300FE25D2 /* Asset 24.svg */; };
-		80C4C5F52242CDD300FE25D2 /* Asset 18.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40A2242CDD300FE25D2 /* Asset 18.svg */; };
-		80C4C5F62242CDD300FE25D2 /* Asset 21.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40B2242CDD300FE25D2 /* Asset 21.svg */; };
-		80C4C5F72242CDD300FE25D2 /* Asset 23.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40C2242CDD300FE25D2 /* Asset 23.svg */; };
-		80C4C5F82242CDD300FE25D2 /* Asset 22.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40D2242CDD300FE25D2 /* Asset 22.svg */; };
-		80C4C5F92242CDD300FE25D2 /* Asset 15.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40E2242CDD300FE25D2 /* Asset 15.svg */; };
-		80C4C5FA2242CDD300FE25D2 /* Asset 16.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C40F2242CDD300FE25D2 /* Asset 16.svg */; };
-		80C4C5FB2242CDD300FE25D2 /* Asset 17.svg in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4102242CDD300FE25D2 /* Asset 17.svg */; };
 		80C4C5FC2242CDD300FE25D2 /* 55percent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4122242CDD300FE25D2 /* 55percent@3x.png */; };
 		80C4C5FD2242CDD300FE25D2 /* 35percent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4132242CDD300FE25D2 /* 35percent@3x.png */; };
 		80C4C5FE2242CDD300FE25D2 /* 45percent@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80C4C4142242CDD300FE25D2 /* 45percent@3x.png */; };
@@ -477,16 +467,6 @@
 		80A65D3E2243CF3B0030D2E7 /* Scene_Final.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Final.sks; sourceTree = "<group>"; };
 		80A65D41224510910030D2E7 /* Scene_Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Accessibility.swift; sourceTree = "<group>"; };
 		80A65D43224510A90030D2E7 /* Scene_Accessibility.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Accessibility.sks; sourceTree = "<group>"; };
-		80C4C4072242CDD300FE25D2 /* Asset 19.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 19.svg"; sourceTree = "<group>"; };
-		80C4C4082242CDD300FE25D2 /* Asset 25.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 25.svg"; sourceTree = "<group>"; };
-		80C4C4092242CDD300FE25D2 /* Asset 24.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 24.svg"; sourceTree = "<group>"; };
-		80C4C40A2242CDD300FE25D2 /* Asset 18.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 18.svg"; sourceTree = "<group>"; };
-		80C4C40B2242CDD300FE25D2 /* Asset 21.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 21.svg"; sourceTree = "<group>"; };
-		80C4C40C2242CDD300FE25D2 /* Asset 23.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 23.svg"; sourceTree = "<group>"; };
-		80C4C40D2242CDD300FE25D2 /* Asset 22.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 22.svg"; sourceTree = "<group>"; };
-		80C4C40E2242CDD300FE25D2 /* Asset 15.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 15.svg"; sourceTree = "<group>"; };
-		80C4C40F2242CDD300FE25D2 /* Asset 16.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 16.svg"; sourceTree = "<group>"; };
-		80C4C4102242CDD300FE25D2 /* Asset 17.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Asset 17.svg"; sourceTree = "<group>"; };
 		80C4C4122242CDD300FE25D2 /* 55percent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "55percent@3x.png"; sourceTree = "<group>"; };
 		80C4C4132242CDD300FE25D2 /* 35percent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "35percent@3x.png"; sourceTree = "<group>"; };
 		80C4C4142242CDD300FE25D2 /* 45percent@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45percent@3x.png"; sourceTree = "<group>"; };
@@ -1060,29 +1040,11 @@
 		80C4C4052242CDD300FE25D2 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				80C4C4062242CDD300FE25D2 /* SVG */,
 				80C4C4112242CDD300FE25D2 /* 3x */,
 				80C4C41C2242CDD300FE25D2 /* 2x */,
 				80C4C4272242CDD300FE25D2 /* 1x */,
 			);
 			path = Buttons;
-			sourceTree = "<group>";
-		};
-		80C4C4062242CDD300FE25D2 /* SVG */ = {
-			isa = PBXGroup;
-			children = (
-				80C4C4072242CDD300FE25D2 /* Asset 19.svg */,
-				80C4C4082242CDD300FE25D2 /* Asset 25.svg */,
-				80C4C4092242CDD300FE25D2 /* Asset 24.svg */,
-				80C4C40A2242CDD300FE25D2 /* Asset 18.svg */,
-				80C4C40B2242CDD300FE25D2 /* Asset 21.svg */,
-				80C4C40C2242CDD300FE25D2 /* Asset 23.svg */,
-				80C4C40D2242CDD300FE25D2 /* Asset 22.svg */,
-				80C4C40E2242CDD300FE25D2 /* Asset 15.svg */,
-				80C4C40F2242CDD300FE25D2 /* Asset 16.svg */,
-				80C4C4102242CDD300FE25D2 /* Asset 17.svg */,
-			);
-			path = SVG;
 			sourceTree = "<group>";
 		};
 		80C4C4112242CDD300FE25D2 /* 3x */ = {
@@ -2513,8 +2475,6 @@
 				80C4C6A42242CDD400FE25D2 /* greenDeuteranomalySolid@2x.png in Resources */,
 				80C4C6B02242CDD400FE25D2 /* orangeTritanopiaPattern.png@3x.png in Resources */,
 				80C4C6CF2242CDD400FE25D2 /* orangePartialMonochromacyPattern@3x.png in Resources */,
-				80C4C5F82242CDD300FE25D2 /* Asset 22.svg in Resources */,
-				80C4C5FA2242CDD300FE25D2 /* Asset 16.svg in Resources */,
 				80C4C6EA2242CDD400FE25D2 /* Asset 51.svg in Resources */,
 				80C4C71C2242CDD400FE25D2 /* Asset 67.svg in Resources */,
 				80C4C6422242CDD400FE25D2 /* blueTritanomalySolid@2x.png in Resources */,
@@ -2522,7 +2482,6 @@
 				80C4C6F72242CDD400FE25D2 /* orangeDeuteranopiaPattern.png in Resources */,
 				80C4C6222242CDD400FE25D2 /* redPartialMonochromacySolid@2x.png in Resources */,
 				80C4C7352242CDD400FE25D2 /* orangeTritanomalyPattern@2x.png in Resources */,
-				80C4C5F72242CDD300FE25D2 /* Asset 23.svg in Resources */,
 				80C4C6E92242CDD400FE25D2 /* greenProtanopiaPattern.png in Resources */,
 				80C4C6FE2242CDD400FE25D2 /* blueDeuteranomalyPattern@3x.png in Resources */,
 				80C4C6632242CDD400FE25D2 /* redDeuteranopiaSolid@2x.png in Resources */,
@@ -2644,7 +2603,6 @@
 				80C4C6C72242CDD400FE25D2 /* redMonochromacyPattern.png in Resources */,
 				80C4C6932242CDD400FE25D2 /* greenProtanopiaSolid@2x.png in Resources */,
 				80C4C71F2242CDD400FE25D2 /* redNormalPattern@3x.png in Resources */,
-				80C4C5FB2242CDD300FE25D2 /* Asset 17.svg in Resources */,
 				80C4C6322242CDD400FE25D2 /* blueProtanomalySolid@2x.png in Resources */,
 				80C4C6942242CDD400FE25D2 /* redProtanopiaSolid@2x.png in Resources */,
 				80C4C6E82242CDD400FE25D2 /* blueProtanopiaPattern.png in Resources */,
@@ -2684,7 +2642,6 @@
 				80C4C6912242CDD400FE25D2 /* orangeProtanopiaSolid@3x.png in Resources */,
 				80C4C7512242CDD400FE25D2 /* sadAnnyAsset@3x.png in Resources */,
 				80A65D44224510A90030D2E7 /* Scene_Accessibility.sks in Resources */,
-				80C4C5F52242CDD300FE25D2 /* Asset 18.svg in Resources */,
 				80C4C71B2242CDD400FE25D2 /* Asset 69.svg in Resources */,
 				80C4C6272242CDD400FE25D2 /* orangePartialMonochromacySolid.png in Resources */,
 				80C4C74C2242CDD400FE25D2 /* placaAsset@2x.png in Resources */,
@@ -2700,7 +2657,6 @@
 				80C4C6292242CDD400FE25D2 /* redPartialMonochromacySolid.png in Resources */,
 				80C4C7522242CDD400FE25D2 /* happyAnnyAsset@2x.png in Resources */,
 				80C4C5FC2242CDD300FE25D2 /* 55percent@3x.png in Resources */,
-				80C4C5F62242CDD300FE25D2 /* Asset 21.svg in Resources */,
 				80C4C7022242CDD400FE25D2 /* blueDeuteranomalyPattern@2x.png in Resources */,
 				80C4C6FB2242CDD400FE25D2 /* Asset 56.svg in Resources */,
 				80C4C6042242CDD300FE25D2 /* 40percent@3x.png in Resources */,
@@ -2728,9 +2684,7 @@
 				80C4C7412242CDD400FE25D2 /* happyNickAsset@3x.png in Resources */,
 				80C4C6B42242CDD400FE25D2 /* orangeTritanopiaPattern.png@2x.png in Resources */,
 				80C4C7502242CDD400FE25D2 /* happyAnnyAsset@3x.png in Resources */,
-				80C4C5F92242CDD300FE25D2 /* Asset 15.svg in Resources */,
 				80C4C6EB2242CDD400FE25D2 /* Asset 50.svg in Resources */,
-				80C4C5F22242CDD300FE25D2 /* Asset 19.svg in Resources */,
 				80C4C6992242CDD400FE25D2 /* redProtanopiaSolid.png in Resources */,
 				80C4C7592242CDD400FE25D2 /* happySonnyAsset@3x.png in Resources */,
 				80C4C6B62242CDD400FE25D2 /* greenTritanopiaPattern.png in Resources */,
@@ -2766,7 +2720,6 @@
 				80C4C6332242CDD400FE25D2 /* redProtanomalySolid@2x.png in Resources */,
 				80C4C64E2242CDD400FE25D2 /* blueMonochromacySolid@3x.png in Resources */,
 				80C4C7102242CDD400FE25D2 /* greenProtanomalyPattern@3x.png in Resources */,
-				80C4C5F32242CDD300FE25D2 /* Asset 25.svg in Resources */,
 				80C4C6732242CDD400FE25D2 /* greenTritanopiaSolid@2x.png in Resources */,
 				80C4C6582242CDD400FE25D2 /* redMonochromacySolid.png in Resources */,
 				80C4C7172242CDD400FE25D2 /* greenProtanomalyPattern.png in Resources */,
@@ -2820,7 +2773,6 @@
 				80C4C7082242CDD400FE25D2 /* greenDeuteranomalyPattern.png in Resources */,
 				80C4C6282242CDD400FE25D2 /* bluePartialMonochromacySolid.png in Resources */,
 				80C4C6162242CDD300FE25D2 /* 95percent.png in Resources */,
-				80C4C5F42242CDD300FE25D2 /* Asset 24.svg in Resources */,
 				80C4C7092242CDD400FE25D2 /* orangeDeuteranomalyPattern.png in Resources */,
 				80C4C6C32242CDD400FE25D2 /* orangeMonochromacyPattern@2x.png in Resources */,
 				80C4C6FF2242CDD400FE25D2 /* orangeDeuteranomalyPattern@3x.png in Resources */,
