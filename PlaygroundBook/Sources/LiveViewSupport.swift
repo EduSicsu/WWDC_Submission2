@@ -137,4 +137,16 @@ public func scne_Accessibility() -> SKView{
     return sceneView
 }
 
+public func scne_Personal() -> SKView{
+    let sceneView = SKView(frame: CGRect(x:0 , y:0, width: 1024, height: 780))
+    if let scene = SKScene(fileNamed: "Scene_Personal") {
+        // Set the scale mode to scale to fit the window
+        scene.scaleMode = .aspectFill
+        
+        // Present the scene
+        sceneView.presentScene(scene)
+    }
+    return sceneView
+}
+
 //potato is nice! Scene_Accessibility

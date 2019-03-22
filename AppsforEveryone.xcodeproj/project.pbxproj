@@ -27,6 +27,8 @@
 		8052E9A1224512E70007473A /* glasses3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E998224512E70007473A /* glasses3.png */; };
 		8052E9A2224512E70007473A /* glasses2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E999224512E70007473A /* glasses2.png */; };
 		8052E9A3224512E70007473A /* glasses1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8052E99A224512E70007473A /* glasses1.png */; };
+		8052E9A7224518120007473A /* Scene_Personal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8052E9A6224518120007473A /* Scene_Personal.swift */; };
+		8052E9A9224518210007473A /* Scene_Personal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8052E9A8224518210007473A /* Scene_Personal.sks */; };
 		80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A65D302243BC950030D2E7 /* Scene_Pattern.swift */; };
 		80A65D352243C23C0030D2E7 /* Scene_Pattern.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */; };
 		80A65D382243CD790030D2E7 /* Scene_Introduction.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80A65D372243CD790030D2E7 /* Scene_Introduction.sks */; };
@@ -462,6 +464,8 @@
 		8052E998224512E70007473A /* glasses3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses3.png; sourceTree = "<group>"; };
 		8052E999224512E70007473A /* glasses2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses2.png; sourceTree = "<group>"; };
 		8052E99A224512E70007473A /* glasses1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glasses1.png; sourceTree = "<group>"; };
+		8052E9A6224518120007473A /* Scene_Personal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Personal.swift; sourceTree = "<group>"; };
+		8052E9A8224518210007473A /* Scene_Personal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Personal.sks; sourceTree = "<group>"; };
 		80A65D302243BC950030D2E7 /* Scene_Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Pattern.swift; sourceTree = "<group>"; };
 		80A65D342243C23C0030D2E7 /* Scene_Pattern.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Pattern.sks; sourceTree = "<group>"; };
 		80A65D372243CD790030D2E7 /* Scene_Introduction.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Introduction.sks; sourceTree = "<group>"; };
@@ -947,6 +951,7 @@
 				C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */,
 				80A65D302243BC950030D2E7 /* Scene_Pattern.swift */,
 				80A65D3C2243CF250030D2E7 /* Scene_Final.swift */,
+				8052E9A6224518120007473A /* Scene_Personal.swift */,
 				80A65D392243CDA40030D2E7 /* Scene_Introduction.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
 			);
@@ -999,6 +1004,14 @@
 				8052E99A224512E70007473A /* glasses1.png */,
 			);
 			path = 1x;
+			sourceTree = "<group>";
+		};
+		8052E9A4224517E00007473A /* Scene_Personal */ = {
+			isa = PBXGroup;
+			children = (
+				8052E9A8224518210007473A /* Scene_Personal.sks */,
+			);
+			path = Scene_Personal;
 			sourceTree = "<group>";
 		};
 		80A65D362243CD540030D2E7 /* Scene_Introduction */ = {
@@ -2276,6 +2289,7 @@
 		C49C30EA2242A1B100B93AB1 /* GameScenes */ = {
 			isa = PBXGroup;
 			children = (
+				8052E9A4224517E00007473A /* Scene_Personal */,
 				80A65D40224510400030D2E7 /* Scene_Accessibility */,
 				80A65D3B2243CF0E0030D2E7 /* Scene_Final */,
 				80A65D362243CD540030D2E7 /* Scene_Introduction */,
@@ -2713,6 +2727,7 @@
 				80C4C6732242CDD400FE25D2 /* greenTritanopiaSolid@2x.png in Resources */,
 				80C4C6582242CDD400FE25D2 /* redMonochromacySolid.png in Resources */,
 				80C4C7172242CDD400FE25D2 /* greenProtanomalyPattern.png in Resources */,
+				8052E9A9224518210007473A /* Scene_Personal.sks in Resources */,
 				80C4C6B12242CDD400FE25D2 /* blueTritanopiaPattern@3x.png in Resources */,
 				80C4C7112242CDD400FE25D2 /* blueProtanomalyPattern@3x.png in Resources */,
 				80C4C7252242CDD400FE25D2 /* orangeNormalPattern@2x.png in Resources */,
@@ -2820,6 +2835,7 @@
 				80A65D42224510910030D2E7 /* Scene_Accessibility.swift in Sources */,
 				80A65D3A2243CDA40030D2E7 /* Scene_Introduction.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				8052E9A7224518120007473A /* Scene_Personal.swift in Sources */,
 				C49C30F72242A7B900B93AB1 /* Scene_Texture.swift in Sources */,
 				80CAED542242D00B00FBA2A2 /* Scene_Color.swift in Sources */,
 				80A65D312243BC950030D2E7 /* Scene_Pattern.swift in Sources */,
