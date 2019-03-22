@@ -11,4 +11,5 @@ import PlaygroundSupport
 private let liveViewIdentifier: String = "FirstPage"
 
 // Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
+PlaygroundPage.current.needsIndefiniteExecution = true
 PlaygroundPage.current.liveView = scne_VoiceOver()

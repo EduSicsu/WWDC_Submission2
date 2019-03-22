@@ -12,13 +12,18 @@
 // Adjust the voiceOver and test:
 
 // Set a title:
-let str = "Hello, playground"
+describeTitle = /*#-editable-code*/"Title"/*#-end-editable-code*/
 
 // Set a image now:
-let str = "Hello, playground"
+describeImage = /*#-editable-code*/"Image"/*#-end-editable-code*/
 
 // And set the correct text:
-let str = "Hello, playground"
+describeText = /*#-editable-code*/"Text"/*#-end-editable-code*/
 
+import PlaygroundSupport
+
+
+// Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
+PlaygroundPage.current.liveView = scne_Blind()
 
 // Run the code for check:

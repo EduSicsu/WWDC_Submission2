@@ -40,6 +40,17 @@ public var boxGreen = Pattern.normal
 public var boxBlue = Pattern.normal
 public var boxOrange = Pattern.normal
 
+//page 7
+
+public var screenContain = false
+public var voiceOver = false
+
+//page 8
+
+public var describeTitle = "Title"
+public var describeImage = "Image"
+public var describeText = "Text"
+
 /// Instantiates a new instance of a live view.
 ///
 /// This function instantiate a specific LiveView for the page.
