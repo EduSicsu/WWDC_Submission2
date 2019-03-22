@@ -865,6 +865,18 @@
 		80F739BF2245759D004EBAD3 /* Asset 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 33.png"; sourceTree = "<group>"; };
 		80F739C02245759D004EBAD3 /* Asset 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 32.png"; sourceTree = "<group>"; };
 		80F739C12245759D004EBAD3 /* Asset 38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 38.png"; sourceTree = "<group>"; };
+		80F739EE22457930004EBAD3 /* mark44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark44.png; sourceTree = "<group>"; };
+		80F739EF22457930004EBAD3 /* mark41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark41.png; sourceTree = "<group>"; };
+		80F739F022457930004EBAD3 /* mark43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark43.png; sourceTree = "<group>"; };
+		80F739F122457930004EBAD3 /* mark42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark42.png; sourceTree = "<group>"; };
+		80F739F322457930004EBAD3 /* mark41@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark41@2x.png"; sourceTree = "<group>"; };
+		80F739F422457930004EBAD3 /* mark43@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark43@2x.png"; sourceTree = "<group>"; };
+		80F739F522457930004EBAD3 /* mark42@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark42@2x.png"; sourceTree = "<group>"; };
+		80F739F622457930004EBAD3 /* mark44@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark44@2x.png"; sourceTree = "<group>"; };
+		80F739F822457930004EBAD3 /* mark43@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark43@3x.png"; sourceTree = "<group>"; };
+		80F739F922457930004EBAD3 /* mark41@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark41@3x.png"; sourceTree = "<group>"; };
+		80F739FA22457930004EBAD3 /* mark42@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark42@3x.png"; sourceTree = "<group>"; };
+		80F739FB22457930004EBAD3 /* mark44@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mark44@3x.png"; sourceTree = "<group>"; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -2389,6 +2401,10 @@
 			children = (
 				80F739912245759D004EBAD3 /* mark30@3x.png */,
 				80F739922245759D004EBAD3 /* mark26@3x.png */,
+				80F739F822457930004EBAD3 /* mark43@3x.png */,
+				80F739F922457930004EBAD3 /* mark41@3x.png */,
+				80F739FA22457930004EBAD3 /* mark42@3x.png */,
+				80F739FB22457930004EBAD3 /* mark44@3x.png */,
 				80F739932245759D004EBAD3 /* mark28@3x.png */,
 				80F739942245759D004EBAD3 /* mark31@3x.png */,
 				80F739952245759D004EBAD3 /* mark39@3x.png */,
@@ -2401,6 +2417,10 @@
 		80F739982245759D004EBAD3 /* 2x */ = {
 			isa = PBXGroup;
 			children = (
+				80F739F322457930004EBAD3 /* mark41@2x.png */,
+				80F739F422457930004EBAD3 /* mark43@2x.png */,
+				80F739F522457930004EBAD3 /* mark42@2x.png */,
+				80F739F622457930004EBAD3 /* mark44@2x.png */,
 				80F739992245759D004EBAD3 /* mark30@2x.png */,
 				80F7399A2245759D004EBAD3 /* mark28@2x.png */,
 				80F7399B2245759D004EBAD3 /* mark26@2x.png */,
@@ -2415,6 +2435,10 @@
 		80F739A02245759D004EBAD3 /* 1x */ = {
 			isa = PBXGroup;
 			children = (
+				80F739EE22457930004EBAD3 /* mark44.png */,
+				80F739EF22457930004EBAD3 /* mark41.png */,
+				80F739F022457930004EBAD3 /* mark43.png */,
+				80F739F122457930004EBAD3 /* mark42.png */,
 				80F739A12245759D004EBAD3 /* mark39.png */,
 				80F739A22245759D004EBAD3 /* mark29.png */,
 				80F739A32245759D004EBAD3 /* mark28.png */,
