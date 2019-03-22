@@ -1,11 +1,8 @@
 //#-hidden-code
-
 func colorBlindness(kind: Kind) {
     kindBlind = kind
 }
-
 //#-end-hidden-code
-
 /*:
  
  #  Let's help Nick

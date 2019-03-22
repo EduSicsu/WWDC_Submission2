@@ -55,7 +55,7 @@ public class Scene_VoiceOver: SKScene{
         //and run
         switch index {
         case 0:
-            let speechUtterance = AVSpeechUtterance(string: "Placa com um o rosto")
+            let speechUtterance = AVSpeechUtterance(string: "Photo with a face")
             speechSynthesizer.speak(speechUtterance)
             if let pai = self.childNode(withName: "Pai"){
                 if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
@@ -76,14 +76,14 @@ public class Scene_VoiceOver: SKScene{
                     placa.texture = SKTexture(imageNamed: "Asset 34")
                 }
                 if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
-                    label.texture = SKTexture(imageNamed: "mark29")
+                    label.texture = SKTexture(imageNamed: "mark39")
                 }
                 if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
                     button.texture = SKTexture(imageNamed: "Asset 37")
                 }
             }
         case 2:
-            let speechUtterance = AVSpeechUtterance(string: "seems like a button")
+            let speechUtterance = AVSpeechUtterance(string: "Photo with a face")
             speechSynthesizer.speak(speechUtterance)
             if let pai = self.childNode(withName: "Pai"){
                 if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
@@ -114,7 +114,7 @@ public class Scene_VoiceOver: SKScene{
         //and run
         switch index {
         case 0:
-            let speechUtterance = AVSpeechUtterance(string: "Placa com um o rosto")
+            let speechUtterance = AVSpeechUtterance(string: "Photo with a face")
             speechSynthesizer.speak(speechUtterance)
             if let pai = self.childNode(withName: "Pai"){
                 if let placa = pai.childNode(withName: "Placa") as? SKSpriteNode{
@@ -135,7 +135,7 @@ public class Scene_VoiceOver: SKScene{
                     placa.texture = SKTexture(imageNamed: "Asset 34")
                 }
                 if let label = pai.childNode(withName: "Label") as? SKSpriteNode{
-                    label.texture = SKTexture(imageNamed: "mark29")
+                    label.texture = SKTexture(imageNamed: "mark39")
                 }
                 if let button = pai.childNode(withName: "Button") as? SKSpriteNode{
                     button.texture = SKTexture(imageNamed: "Asset 37")
