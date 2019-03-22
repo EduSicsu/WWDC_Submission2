@@ -56,18 +56,18 @@ public class Scene_Color: SKScene{
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
                 orange.texture = SKTexture(imageNamed: "orangeDeuteranopiaSolid")
             }
-        case .deuteranormaly:
+        case .deuteranomaly:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
-                red.texture = SKTexture(imageNamed: "redDeuteranormalySolid")
+                red.texture = SKTexture(imageNamed: "redDeuteranomalySolid")
             }
             if let green = self.childNode(withName: "Green") as? SKSpriteNode{
-                green.texture = SKTexture(imageNamed: "greenDeuteranormalySolid")
+                green.texture = SKTexture(imageNamed: "greenDeuteranomalySolid")
             }
             if let blue = self.childNode(withName: "Blue") as? SKSpriteNode{
-                blue.texture = SKTexture(imageNamed: "blueDeuteranormalySolid")
+                blue.texture = SKTexture(imageNamed: "blueDeuteranomalySolid")
             }
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
-                orange.texture = SKTexture(imageNamed: "orangeDeuteranormalySolid")
+                orange.texture = SKTexture(imageNamed: "orangeDeuteranomalySolid")
             }
         case .monochromacy:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
@@ -84,16 +84,16 @@ public class Scene_Color: SKScene{
             }
         case .partialMonochomacy:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
-                red.texture = SKTexture(imageNamed: "redPartialMonochomacySolid")
+                red.texture = SKTexture(imageNamed: "redpartialMonochomacySolid")
             }
             if let green = self.childNode(withName: "Green") as? SKSpriteNode{
-                green.texture = SKTexture(imageNamed: "greenPartialMonochomacySolid")
+                green.texture = SKTexture(imageNamed: "greenpartialMonochomacySolid")
             }
             if let blue = self.childNode(withName: "Blue") as? SKSpriteNode{
-                blue.texture = SKTexture(imageNamed: "bluePartialMonochomacySolid")
+                blue.texture = SKTexture(imageNamed: "bluepartialMonochomacySolid")
             }
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
-                orange.texture = SKTexture(imageNamed: "orangePartialMonochomacySolid")
+                orange.texture = SKTexture(imageNamed: "orangepartialMonochomacySolid")
             }
         case .protanopia:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
@@ -108,18 +108,18 @@ public class Scene_Color: SKScene{
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
                 orange.texture = SKTexture(imageNamed: "orangeProtanopiaSolid")
             }
-        case .protanormaly:
+        case .protanomaly:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
-                red.texture = SKTexture(imageNamed: "redProtanormalySolid")
+                red.texture = SKTexture(imageNamed: "redProtanomalySolid")
             }
             if let green = self.childNode(withName: "Green") as? SKSpriteNode{
-                green.texture = SKTexture(imageNamed: "greenProtanormalySolid")
+                green.texture = SKTexture(imageNamed: "greenProtanomalySolid")
             }
             if let blue = self.childNode(withName: "Blue") as? SKSpriteNode{
-                blue.texture = SKTexture(imageNamed: "blueProtanormalySolid")
+                blue.texture = SKTexture(imageNamed: "blueProtanomalySolid")
             }
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
-                orange.texture = SKTexture(imageNamed: "orangeProtanormalySolid")
+                orange.texture = SKTexture(imageNamed: "orangeProtanomalySolid")
             }
         case .tritanopia:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
@@ -134,18 +134,18 @@ public class Scene_Color: SKScene{
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
                 orange.texture = SKTexture(imageNamed: "orangeTritanopiaSolid")
             }
-        case .tritanormaly:
+        case .tritanomaly:
             if let red = self.childNode(withName: "Red") as? SKSpriteNode{
-                red.texture = SKTexture(imageNamed: "redTritanormalySolid")
+                red.texture = SKTexture(imageNamed: "redTritanomalySolid")
             }
             if let green = self.childNode(withName: "Green") as? SKSpriteNode{
-                green.texture = SKTexture(imageNamed: "greenTritanormalySolid")
+                green.texture = SKTexture(imageNamed: "greenTritanomalySolid")
             }
             if let blue = self.childNode(withName: "Blue") as? SKSpriteNode{
-                blue.texture = SKTexture(imageNamed: "blueTritanormalySolid")
+                blue.texture = SKTexture(imageNamed: "blueTritanomalySolid")
             }
             if let orange = self.childNode(withName: "Orange") as? SKSpriteNode{
-                orange.texture = SKTexture(imageNamed: "orangeTritanormalySolid")
+                orange.texture = SKTexture(imageNamed: "orangeTritanomalySolid")
             }
         }
     }

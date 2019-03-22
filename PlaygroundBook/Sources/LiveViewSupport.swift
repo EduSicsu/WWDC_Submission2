@@ -10,21 +10,35 @@ import SpriteKit
 import PlaygroundSupport
 
 let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
+// Page 4
 public var percet = 0
 
+// Page 5
 public enum Kind{
     case colorNormal
     case deuteranopia
-    case deuteranormaly
+    case deuteranomaly
     case protanopia
-    case protanormaly
+    case protanomaly
     case monochromacy
     case partialMonochomacy
     case tritanopia
-    case tritanormaly
+    case tritanomaly
 }
 
 public var kindBlind = Kind.colorNormal
+
+// Page 6
+
+public enum Pattern{
+    case normal
+    case pattern
+}
+
+public var boxRed = Pattern.normal
+public var boxGreen = Pattern.normal
+public var boxBlue = Pattern.normal
+public var boxOrange = Pattern.normal
 
 /// Instantiates a new instance of a live view.
 ///
