@@ -4,6 +4,8 @@
 <dict>
 	<key>Name</key>
 	<string>Accessibility</string>
+	<key>ImageReference</key>
+	<string>folder.png</string>
 	<key>Pages</key>
 	<array>
 		<string>PlaygroundPage.playgroundpage</string>

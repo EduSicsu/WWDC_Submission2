@@ -367,6 +367,8 @@
 		80F73A4322458D69004EBAD3 /* animation26.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A2522458D69004EBAD3 /* animation26.png */; };
 		80F73A4422458D69004EBAD3 /* animation27.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A2622458D69004EBAD3 /* animation27.png */; };
 		80F73A4622458DFB004EBAD3 /* Action.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A4522458DFB004EBAD3 /* Action.sks */; };
+		80F73A5322459A8B004EBAD3 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A4F22459A8B004EBAD3 /* folder.png */; };
+		80F73A6322468797004EBAD3 /* Asset 46.png in Resources */ = {isa = PBXBuildFile; fileRef = 80F73A6222468797004EBAD3 /* Asset 46.png */; };
 		C49C30ED2242A67A00B93AB1 /* Scene_Contrast.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */; };
 		C49C30EF2242A69900B93AB1 /* Scene_Contrast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */; };
 		C49C30F42242A78300B93AB1 /* Scene_Color.sks in Resources */ = {isa = PBXBuildFile; fileRef = C49C30F32242A78300B93AB1 /* Scene_Color.sks */; };
@@ -815,6 +817,8 @@
 		80F73A2522458D69004EBAD3 /* animation26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation26.png; sourceTree = "<group>"; };
 		80F73A2622458D69004EBAD3 /* animation27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animation27.png; sourceTree = "<group>"; };
 		80F73A4522458DFB004EBAD3 /* Action.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Action.sks; sourceTree = "<group>"; };
+		80F73A4F22459A8B004EBAD3 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		80F73A6222468797004EBAD3 /* Asset 46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 46.png"; sourceTree = "<group>"; };
 		C49C30EC2242A67A00B93AB1 /* Scene_Contrast.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene_Contrast.sks; sourceTree = "<group>"; };
 		C49C30EE2242A69900B93AB1 /* Scene_Contrast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Contrast.swift; sourceTree = "<group>"; };
 		C49C30F12242A77300B93AB1 /* Scene_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene_Color.swift; sourceTree = "<group>"; };
@@ -1039,6 +1043,8 @@
 		80C4C4042242CDD300FE25D2 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				80F73A6022468797004EBAD3 /* wwdcName */,
+				80F73A4722459A8B004EBAD3 /* folder */,
 				80F73A0822458D69004EBAD3 /* frames_animation */,
 				80F7398F2245759D004EBAD3 /* mark */,
 				80F739A92245759D004EBAD3 /* unMark */,
@@ -2318,6 +2324,38 @@
 			path = frames_animation;
 			sourceTree = "<group>";
 		};
+		80F73A4722459A8B004EBAD3 /* folder */ = {
+			isa = PBXGroup;
+			children = (
+				80F73A4E22459A8B004EBAD3 /* 1x */,
+			);
+			path = folder;
+			sourceTree = "<group>";
+		};
+		80F73A4E22459A8B004EBAD3 /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				80F73A4F22459A8B004EBAD3 /* folder.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
+		80F73A6022468797004EBAD3 /* wwdcName */ = {
+			isa = PBXGroup;
+			children = (
+				80F73A6122468797004EBAD3 /* 1x */,
+			);
+			path = wwdcName;
+			sourceTree = "<group>";
+		};
+		80F73A6122468797004EBAD3 /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				80F73A6222468797004EBAD3 /* Asset 46.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
 		C49C30EA2242A1B100B93AB1 /* GameScenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -2536,6 +2574,7 @@
 				80C4C75D2242CDD400FE25D2 /* happySonnyAsset.png in Resources */,
 				80C4C6C42242CDD400FE25D2 /* redMonochromacyPattern@2x.png in Resources */,
 				80C4C6C82242CDD400FE25D2 /* greenMonochromacyPattern.png in Resources */,
+				80F73A6322468797004EBAD3 /* Asset 46.png in Resources */,
 				80F73A4022458D69004EBAD3 /* animation18.png in Resources */,
 				80C4C6D42242CDD400FE25D2 /* greenPartialMonochromacyPattern@2x.png in Resources */,
 				80C4C7402242CDD400FE25D2 /* sadNickAsset@3x.png in Resources */,
@@ -2645,6 +2684,7 @@
 				80C4C71F2242CDD400FE25D2 /* redNormalPattern@3x.png in Resources */,
 				80C4C6322242CDD400FE25D2 /* blueProtanomalySolid@2x.png in Resources */,
 				80C4C6942242CDD400FE25D2 /* redProtanopiaSolid@2x.png in Resources */,
+				80F73A5322459A8B004EBAD3 /* folder.png in Resources */,
 				80C4C6E82242CDD400FE25D2 /* blueProtanopiaPattern.png in Resources */,
 				80C4C6E52242CDD400FE25D2 /* greenProtanopiaPattern@2x.png in Resources */,
 				80C4C7012242CDD400FE25D2 /* redDeuteranomalyPattern@3x.png in Resources */,

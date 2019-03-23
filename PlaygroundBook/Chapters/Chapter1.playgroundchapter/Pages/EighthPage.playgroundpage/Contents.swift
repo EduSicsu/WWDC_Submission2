@@ -20,6 +20,9 @@ describeImage = /*#-editable-code*/"Image"/*#-end-editable-code*/
 // And set the correct text:
 describeText = /*#-editable-code*/"Text"/*#-end-editable-code*/
 
+
+// Scroll for the left or right to hear
+
 //#-hidden-code
 import PlaygroundSupport
 

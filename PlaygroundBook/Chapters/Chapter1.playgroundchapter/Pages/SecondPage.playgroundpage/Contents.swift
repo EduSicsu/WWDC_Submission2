@@ -1,6 +1,6 @@
 /*:
  
- # Why did i do this Playground?
+ # Why did I do this Playground?
  
  First of all, my name is Eduardo Oliveira Lopes,  I am 22 years old and I'm a design student. So, nice to meet you.
  
@@ -11,4 +11,4 @@
  [Please click here to go to the next page.](@next)
  
  */
-// let str = "Hello, playground"
+

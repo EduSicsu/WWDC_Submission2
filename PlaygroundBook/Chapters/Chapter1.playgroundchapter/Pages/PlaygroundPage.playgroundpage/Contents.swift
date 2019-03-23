@@ -10,6 +10,5 @@
  [Please click here to go to the next page.](@next)
 */
 
-let str = "Hello, playground"
 
 

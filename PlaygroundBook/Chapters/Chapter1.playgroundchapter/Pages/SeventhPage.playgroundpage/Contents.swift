@@ -17,6 +17,7 @@
 screenCurtain = /*#-editable-code*/false/*#-end-editable-code*/
 voiceOver = /*#-editable-code*/false/*#-end-editable-code*/
 
+// Scroll for the left or right to hear
 
 //#-hidden-code
 import PlaygroundSupport
